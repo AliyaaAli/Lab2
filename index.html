@@ -1,9 +1,82 @@
 <html>
     <head>
-        <header>Hello World</header>
-        
-    </head>
+        <style>
+        * { 
+            box-sizing: border-box;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 30px;
+            text-align: center;
+        }
+        .flex-item-left {
+            background-color: rgb(0, 208, 255);
+            padding: 10px;
+            flex:50%;
+        }
+
+        .flex-item-right {
+            background-color: blueviolet;
+            padding: 10px;
+            flex: 50%;
+        }
+
+        .flex-item-center {
+            background-color: rgb(43, 70, 226);
+            padding: 10px;
+            flex: 50%;
+        }
+
+        .flex-item-middle {
+            background-color: rgb(223, 226, 43);
+            padding: 10px;
+            flex: 50%;
+        }
+    }
+    @media (max-width: 800px) {
+        .flex-item-left, .flex-item-right, flex-item-center, flex-item-middle { 
+            flex: 100%;
+        }
+    }
+
+    </style>
+    <title>Lab 2</title>
+    <header><h1><Center><font face= "courier">Random Facts About Aliya!!</font></Center></h1></header>
+        </head>
     <body>
-        <nav><a href=</nav>
+        <header><h3><b><ins>My Favourite Colours!</b></h3></header></ins>
+    <div class="flex-container">
+        <div class="flex-item-left">Teal</div>
+        <div class="flex-item-right">Purple</div>
+        <div class="flex-item-center">Blue</div>
+        <div class="flex-item-middle">Yellow</div>
+        </div>
+        <main>
+        <article><center>
+            <h3><ins>Random Facts About Me</ins></h3>
+            <p>
+            <ul>
+                <li>My favourite show is Better Call Saul</li>
+                <li>My favourite animal is a Parrot</li>
+                <li>My shoe size is a 9 1/2</li>
+                <li>My favourite hobbies include: gaming, cooking, reading, gardening and art</li>
+                <li>My favourite ice cream flavour is vanilla</li>
+                <li>My favourite video game is red dead redemption 2</li>
+                <li>My favourite flowers are wisteria and jasmine, and hibiscus</li>
+            </ul>
+            </p>
+            </article></center>
+        </main>
+        <nav>
+            <ul>
+                <li><a href="https://www.google.com" title="Google">Google</a></li>
+                <li><a href="https://www.youtube.com" title="Youtube">Youtube</a></li>
+                <li><a href="https://github.com" title="Github">Github</a></li>
+                <li><a href="https://w3schools.com/css/default.asp" title="W3schools">W3schools</a></li>
+            </ul>
+        </nav>
+        <footer>All Rights Reserved &#169;</footer>
     </body>
 </html>
